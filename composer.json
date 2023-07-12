@@ -1,5 +1,5 @@
 {
-    "name": "pos-lifestyle/laravel-nova-date-range-filter",
+    "name": "Mhamedsurepaysa/laravel-nova-date-range-filter",
     "description": "A Laravel Nova date range filter.",
     "keywords": [
         "laravel",
@@ -11,14 +11,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Jan Hähne",
-            "email": "jan.haehne@pos-lifestyle.de",
-            "homepage": "https://github.com/jhae-de",
+            "name": "Mohamed ahmed",
+            "email": "mhamed@surepay.sa",
+            "homepage": "https://github.com/Mhamedsurepaysa",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/pos-lifestyle/laravel-nova-date-range-filter/issues"
+        "issues": "https://github.com/Mhamedsurepaysa/laravel-nova-date-range-filter/issues"
     },
     "repositories": [
         {
@@ -27,22 +27,22 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "laravel/framework": "^5.8 || ^6.0 || ^7.0 || ^8.0",
-        "laravel/nova": "^2.0 || ^3.0"
+        "php": ">=7.4",
+        "laravel/framework": ">=8.0",
+        "laravel/nova": ">=2.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "PosLifestyle\\DateRangeFilter\\": "src/"
+            "Mhamedsurepaysa\\DateRangeFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PosLifestyle\\DateRangeFilter\\FilterServiceProvider"
+                "Mhamedsurepaysa\\DateRangeFilter\\FilterServiceProvider"
             ]
         }
     },

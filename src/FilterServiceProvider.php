@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PosLifestyle\DateRangeFilter;
+namespace Mhamedsurepaysa\DateRangeFilter;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
