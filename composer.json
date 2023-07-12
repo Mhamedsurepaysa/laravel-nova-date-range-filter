@@ -50,5 +50,6 @@
         "sort-packages": true
     },
     "minimum-stability": "master",
+    "version": "master",
     "prefer-stable": true
 }
